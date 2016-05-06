@@ -12,6 +12,11 @@ body{
 	font-weight: 100;
 	line-height: 14px;
 	color: #fff;
+	width: 100%;
+}
+
+main {
+	width: 100%;
 }
 
 a{
@@ -36,10 +41,11 @@ header li{
 	padding-left: 0px;
 }
 
-.container{
+body .container{
 	max-width: 1170px;
 	margin: 0 auto;
 }
+
 .clearfix:before, .clearfix:after{
 	content: "";
 	display: table;
@@ -59,11 +65,11 @@ header li{
 	color: #f63c3c;
 }
 
-/* .navBar span .activeUnderline{
+.navBar div .underline{
 	width: 50px;
 	height: 15px;
 	color: #f63c3c;
-} WHY ISN"T THIS WORKING???*/
+} 
 
 .hero{
 	background: url(../img/background.jpg) no-repeat center center;
@@ -114,4 +120,163 @@ header li{
 	background-color: #fff;
 	border: none;
 	padding: 18px 55px;
+}
+
+.carouselBar{
+	background-color: #fff;
+	opacity: 50%;
+	display: inline-block;
+	margin: auto;
+}
+
+.bar{
+	width: 40px;
+	height: 4px;
+}
+
+figcaption{
+	display: none;
+}
+
+.project{
+	font-family: 'Teko', Helvetica, Arial, sans-serif;
+	color: #000;
+	width: 100%;
+}
+
+.project a{
+	color: #000;
+}
+
+.project article {
+	display: inline-block;
+}
+
+.project figure{
+	width: 48.43%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: auto;
+}
+
+.project h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.project h3{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.project p{
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 35px;
+}
+
+.project footer{
+	font-size: 20px;
+	letter-spacing: 3.1px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 60px;
+}
+
+.project footer a{
+	color: #f63c3c;
+}
+
+footer a .underline {
+	width: 180px;
+	height: 4px;
+	background-color: #f63c3c;
+	margin: auto;
+	margin-top: 9px;
+}
+
+.showcase {
+	height: 240px;
+	background-color: #f63c3c;
+	margin-top: 75px;
+	text-align: center;
+}
+
+.showcase h2{
+	font-family: 'Teko', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	padding-top: 60px;
+	padding-bottom: 18px;
+}
+
+.showcase p{
+	color: #fccaca;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.connected {
+	margin-top: 70px;
+	margin-left: 375px;
+	color: #000;
+}
+.connected h2{
+	font-family: 'Teko', Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.connected p{
+	margin-bottom: 60px;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.connected li{
+	font-family: 'Teko', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	width: 270px;
+	height: 196px;
+	background-color: #000;
+	display: inline-block;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.connected a{
+	color: #fff;
+	padding-bottom: 60px;
+}
+
+aside .break {
+	display: block;
+	padding-bottom: 25px;
+}
+
+.connected i{
+		padding-top: 58px;
+		font-size: 40px;
 }
