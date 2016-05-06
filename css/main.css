@@ -65,11 +65,12 @@ body .container{
 	color: #f63c3c;
 }
 
-.navBar div .underline{
-	width: 50px;
-	height: 15px;
-	color: #f63c3c;
-} 
+.underline {
+	margin-top: 22px;
+	background-color: #f63c3c;
+	height: 4px;
+	width: 40px;
+}
 
 .hero{
 	background: url(../img/background.jpg) no-repeat center center;
@@ -122,17 +123,14 @@ body .container{
 	padding: 18px 55px;
 }
 
-.carouselBar{
+.bar {
+	display: inline-block;
+	height: 4px;
+	width: 40px;
 	background-color: #fff;
 	opacity: 50%;
-	display: inline-block;
-	margin: auto;
 }
 
-.bar{
-	width: 40px;
-	height: 4px;
-}
 
 figcaption{
 	display: none;
@@ -141,7 +139,7 @@ figcaption{
 .project{
 	font-family: 'Teko', Helvetica, Arial, sans-serif;
 	color: #000;
-	width: 100%;
+	margin: auto;
 }
 
 .project a{
@@ -150,21 +148,23 @@ figcaption{
 
 .project article {
 	display: inline-block;
+	width: 48.43%;
+	margin: auto;
 }
 
 .project figure{
 	width: 48.43%;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin: auto;
+	vertical-align: center;
+	margin: 0 auto; /*why aren't my photos centered?? */
 }
 
 .project h2{
 	font-size: 40px;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px 0px;
 }
 
 .project h3{
@@ -172,7 +172,6 @@ figcaption{
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 20px;
-	margin: auto;
 	padding-top: 25px;
 	padding-bottom: 20px;
 }
@@ -182,7 +181,6 @@ figcaption{
 	font-weight: 300;
 	font-size: 14px;
 	text-align: center;
-	margin: auto;
 	padding-bottom: 35px;
 }
 
@@ -277,6 +275,17 @@ aside .break {
 }
 
 .connected i{
-		padding-top: 58px;
-		font-size: 40px;
+	padding-top: 58px;
+	font-size: 40px;
 }
+
+small .copyright{
+	color: #555555;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 40px;
+} /* WHY ISN't THIS SHOWING?? */
